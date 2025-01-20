@@ -46,7 +46,7 @@ Here's what I bring to the table:
 
 Let's connect and collaborate! 💌
 
-- 📧 **Email**: [yonasleykun27@example.com](mailto:yonasleykun27@example.com)  
+- 📧 **Email**: [yonasleykun27@gmail.com](mailto:yonasleykun27@gmail.com)  
 - 💼 **LinkedIn**: [linkedin.com/in/yonasleykun27](https://www.linkedin.com/in/yonasleykun27)  
 - 🐙 **GitHub**: [github.com/yonasleykun27](https://github.com/yonasleykun27)
 
