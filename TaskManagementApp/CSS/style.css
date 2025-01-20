@@ -1,0 +1,137 @@
+/* Base Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom right, #0059a1, #feb47b);
+  color: #fff;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.task-container, .login-container {
+  max-width: 800px;
+  margin: 30px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  color: #333;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button.delete-btn {
+  background-color: red;
+}
+
+button.delete-btn:hover {
+  background-color: darkred;
+}
+
+#add-task-form input, #add-task-form select, #login-form input {
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
+
+/* Task List Styles */
+.task-card {
+  background: #f9f9f9;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  color: #333;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.task-card h3 {
+  margin: 0 0 10px;
+}
+
+.task-card p {
+  margin: 5px 0;
+}
+
+.task-list-desktop table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.task-list-desktop table th, .task-list-desktop table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.task-list-desktop table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Progress Colors */
+.status {
+  font-weight: bold;
+  padding: 3px 6px;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+}
+
+.status.NotStarted {
+  color: white;
+  background-color: red;
+}
+
+.status.Started {
+  color: black;
+  background-color: yellow;
+}
+
+.status.Finished {
+  color: white;
+  background-color: green;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .task-list-desktop table {
+      display: none;
+  }
+
+  .task-card {
+      display: block;
+  }
+}
+
+@media (min-width: 769px) {
+  .task-card {
+      display: none;
+  }
+}

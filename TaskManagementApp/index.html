@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div id="login-page" class="login-container">
+        <h2>Welcome to Task Management</h2>
+        <form id="login-form">
+            <input type="text" id="username" placeholder="Username" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+            <p id="login-error" style="color: red; display: none;">Invalid username or password.</p>
+        </form>
+    </div>
+
+    <div class="task-container" style="display: none;">
+        <h2>Task Management</h2>
+        <button id="add-task-button">Add Task</button>
+
+        <div id="add-task-form" class="task-form" style="display: none;">
+            <label for="task-name">Task Name</label>
+            <input type="text" id="task-name" placeholder="Enter the task name" required>
+
+            <label for="start-date">Start Date</label>
+            <input type="date" id="start-date" required>
+
+            <label for="end-date">End Date</label>
+            <input type="date" id="end-date" required>
+
+            <label for="progress-status">Progress</label>
+            <select id="progress-status">
+                <option value="Not Started">Not Started</option>
+                <option value="Started">Started</option>
+                <option value="Finished">Finished</option>
+            </select>
+
+            <label for="priority">Priority</label>
+            <select id="priority">
+                <option value="Low">Low</option>
+                <option value="Medium">Medium</option>
+                <option value="High">High</option>
+            </select>
+
+            <button id="save-task">Save Task</button>
+        </div>
+
+        <div id="filter-container">
+            <label for="priority-filter">Filter by Priority:</label>
+            <select id="priority-filter">
+                <option value="All">All</option>
+                <option value="Low">Low</option>
+                <option value="Medium">Medium</option>
+                <option value="High">High</option>
+            </select>
+        </div>
+
+        <h3 id="task-list-heading" style="display: none;">Tasks</h3>
+        <div id="task-list" class="task-list-desktop"></div>
+    </div>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>
