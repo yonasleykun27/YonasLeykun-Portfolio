@@ -38,7 +38,7 @@ Here's what I bring to the table:
 - **🌐 Front-End Development**: HTML, CSS, JavaScript, Bootstrap  
 - **⚙️ Back-End Development**: Node.js
 - **🛠️ Tools & Version Control**: Git, GitHub  
-- **🤝 Virtual Assistance**: Communication, time management, organization , data entry 
+- **🤝 Virtual Assistance**: Communication, time management, organization, data entry 
 
 ---
 
