@@ -23,11 +23,11 @@ Here are a few highlights from my portfolio:
 
 1. **🍎 Apple Bootstrap Project**  
    - A responsive web page inspired by Apple's homepage, designed using **Bootstrap**.  
-   - 🚀 [Live Demo](#) | 🔧 [Source Code](#)
+   -  🔧 [Source Code](AppleBootstrapProject/Project/apple-responsive-staring-base-code/apple-responsive-staring-base-code)
 
 2. **✅ Task Management App**  
    - A feature-rich web app to help users manage their tasks effortlessly, with options to add, edit, and delete tasks.  
-   - 🚀 [Live Demo](#) | 🔧 [Source Code](TaskManagementApp)
+   -  🔧 [Source Code](TaskManagementApp)
 
 ---
 
